@@ -1,0 +1,63 @@
+    html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main{    
+        margin: 0;     
+        padding: 0;     
+        box-sizing: border-box;     
+        list-style: none;     
+        text-decoration: none;
+        color:white;
+    }
+
+    body{
+        background-image:url("./form-yellow.jpg");
+        background-size:cover;
+        height:100vh;
+        width:100vw;
+        background-attachment:fixed;
+        background-repeat:no-repeat;
+        background-position:center;
+        font-family: 'Roboto', sans-serif, 'verdana';
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cabecalho{
+        text-align:center;
+        padding: 30px;
+    }
+
+    .imagem{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+    }
+        
+    form{
+        margin-top: 30px;
+        width: 300px;
+        height: 400px;
+        background-color:black;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        border-radius: 50px; 
+        border:solid;
+        border-color:ghostwhite;
+        box-shadow: 10px 5px 5px rgb(175, 149, 2); 
+    }
+
+    label{
+        margin-top: 30px;
+        color: rgb(255, 230, 4);
+    }
+    input{
+        padding: 5px;
+    }
+
+    button{
+        color:black;
+        margin-top: 8px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
